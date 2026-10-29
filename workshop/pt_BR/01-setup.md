@@ -122,18 +122,20 @@ Vamos usar o comando integrado `/init` para gerar um arquivo de instruções do 
 
 **Agente em segundo plano local:**
 
-1. No painel de Chat, clique em **+** → **New background agent**
-2. Digite o prompt:
+1. No painel de Chat, clique em **+** para abrir um novo chat.
+2. Na parte inferior da janela, altere **Local** para **Copilot CLI**.
+3. Digite este prompt:
 
-   > "Add linting rules for unused vars and improve code style; fix any errors"
+   > "Adicione regras de lint para variáveis não utilizadas e melhore o estilo do código; corrija os erros encontrados."
 
-3. Quando terminar, **Revise e Aplique** as alterações, depois delete a sessão.
+4. Quando terminar, **revise e aplique** as alterações e arquive a sessão, se quiser.
 
 **Agente na nuvem:**
 
-1. Inicie outro agente em segundo plano com:
+1. No painel de Chat, clique em **+** para abrir um novo chat.
+2. Na parte inferior da janela, altere **Local** para **Cloud**.
 
-   > "Make the README more engaging as a landing page"
+   > "Deixe o README mais atraente como página inicial."
 
 > **Resultado:** Regras de linting adicionadas, erros corrigidos, README melhorado — tudo sem sair do seu editor.
 
@@ -141,9 +143,9 @@ Vamos usar o comando integrado `/init` para gerar um arquivo de instruções do 
 
 Abra o **Copilot Chat** no **modo Ask** e experimente estes prompts:
 
-- `"Explain the architecture of this project"`
-- `"What files are in the src directory and what do they do?"`
-- `"What would I need to build to make the Battle button work?"`
+- "Explique a arquitetura deste projeto."
+- "Quais arquivos existem no diretório src e para que servem?"
+- "O que eu precisaria desenvolver para fazer o botão Battle funcionar?"
 
 > 💡 Use **@workspace** para dar ao Copilot contexto de todo o projeto para respostas mais precisas.
 <!-- track:vscode:end -->
